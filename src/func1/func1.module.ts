@@ -5,7 +5,9 @@ import { Comp1Component } from './func1/comp1/comp1.component';
 @NgModule({
 
     declarations: [Comp1Component], // Componentes do Móódulo
-    exports: [], // 
+    exports: [Comp1Component], // 
     imports: [CommonModule]
     
 })
+
+export class Func1Module{}
