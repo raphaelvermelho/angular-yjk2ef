@@ -3,6 +3,7 @@ import {BrowserModule} from "@angular/platform-browser";
 
 import {AppComponent} from './app.component';
 import {Func1Module} from './func1/func1.module';
+import {componente1Componente} from './componente1/componente1.componente';
 
 
 @NgModule({
