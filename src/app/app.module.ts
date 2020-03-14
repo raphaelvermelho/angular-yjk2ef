@@ -4,12 +4,12 @@ import {BrowserModule} from "@angular/platform-browser";
 import {AppComponent} from './app.component';
 import {Func1Module} from './func1/func1.module';
 import {componente1Componente} from './componente1/componente1.componente';
-import {FormsModule} from '@angular/form';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
 
-    imports : [BrowserModule, Func1Module], // Outros Módulos Usados
+    imports : [BrowserModule, Func1Module, FormsModule], // Outros Módulos Usados
     exports : [], // Vou exportar (tornar visível) um componente/pipe...
     providers : [], // É o conjunto de serviços que estarão disponíveis para este módulo...
     declarations : [AppComponent, componente1Componente], // É o conjunto de componentes do módulo...
