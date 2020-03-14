@@ -7,3 +7,9 @@ import {Component} from '@angular/core';
   styleUrls: [] // Folhas de Estilo(CSS) que estabilizam o componente.
 
 })
+
+export class componente1Componente{ 
+
+
+
+}
