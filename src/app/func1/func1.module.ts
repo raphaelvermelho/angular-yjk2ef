@@ -3,6 +3,8 @@ import {NgModule} from '@angular/core';
 
 @NgModule({
 
-    declarations: [],
+    declarations: [], // Componentes do Móódulo
+    exports: [], // 
+    imports: [CommonModule]
     
 })
