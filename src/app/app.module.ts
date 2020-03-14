@@ -2,9 +2,9 @@ import { NgModule } from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 
 import {AppComponent} from './app.component';
-import {componente1Componente} from './componente1/componente1.componente';
 import {Func1Module} from './func1/func1.module';
-import { Component1Component } from './func1/comp1/comp1.component';
+import { Comp1Component } from './func1/comp1/comp1.component';
+
 
 @NgModule({
 
